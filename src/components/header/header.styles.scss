@@ -1,5 +1,13 @@
 .header {
-  background-color: #f9a620;
-  height: 80px;
+  // border: dotted 3px red;
+  // height: 3.815rem;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-button-container {
+  background-color: #ff4e3b;
+  height: 2.441rem;
+  width: 2.441rem;
 }

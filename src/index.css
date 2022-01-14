@@ -1,14 +1,88 @@
 body {
   margin: 0;
   font-size: 16px;
-  font-family: "Sawarabi Gothic", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  color: #dbdbdb;
+  max-height: 100vmax;
+
+  background-image: radial-gradient(
+    circle,
+    #000209,
+    #00030d,
+    #000411,
+    #010413,
+    #010516,
+    #04081b,
+    #060b1f,
+    #080e24,
+    #0a132c,
+    #0c1735,
+    #0e1a3e,
+    #121d47
+  );
 }
 
-h1 {
-  font-family: "Poppins", sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Quantico", sans-serif;
+  color: #ff4e3b;
 }
 
-code {
+h2 {
+  position: relative;
+  overflow: hidden;
+}
+
+h2:after {
+  content: "";
+  top: 48%;
+  width: 100%;
+  margin-left: 10px;
+  height: 5px;
+  position: absolute;
+  background: #89cadc;
+}
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+
+p {
+  padding: 0 0;
+  margin: 0 0;
+}
+
+/* new div */
+.container {
+  background-color: #182240;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.img {
+  height: 187px;
+  width: 333px;
+  background-color: #89cadc;
+}
+
+.scr {
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  height: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-title {
+  height: 40px;
+  background-color: rgb(137, 202, 220, 0.8);
 }

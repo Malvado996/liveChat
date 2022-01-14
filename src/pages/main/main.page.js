@@ -1,16 +1,41 @@
 import React from 'react';
 
-import Header from '../../components/header/header.component';
-
 import './main.styles.scss';
 
+import Header from '../../components/header/header.component'
+import scrambler from '../../assets/scrambler.jpg'
 
 const Main = () => {
+
     return (
         <div className='main-container'>
             <Header />
-            <h1 className='title'>Rowdy Moto</h1>
-            <p className='subtitle'>Motorcycle trading for things.</p>
+            <h2>Rowdy Moto</h2>
+            <p>this is text.</p>
+            <div className='container'>
+                <h4>hello world</h4>
+
+                <div className='card'>
+                <div className='card-title'>
+                <div className='img'>
+                    <img src={scrambler} alt="scrambler" className='scr'/>
+                </div>
+                </div>
+                </div>
+
+                {/* <div className='img'>
+                    <img src={scrambler} alt="scrambler" className='scr'/>
+                </div>
+
+                <div className='img'>
+                    <img src={scrambler} alt="scrambler" className='scr'/>
+                </div>
+
+                <div className='img'>
+                    <img src={scrambler} alt="scrambler" className='scr'/>
+                </div> */}
+
+            </div>
         </div>
     )
 }
