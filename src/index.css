@@ -58,7 +58,7 @@ p {
 /* new div */
 .container {
   background-color: #182240;
-  height: 500px;
+  height: 28.422rem;
   display: flex;
   flex-direction: column;
   overflow: hidden;

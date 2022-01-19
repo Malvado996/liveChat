@@ -16,18 +16,14 @@ const Main = () => {
                 <h4>hello world</h4>
 
                 <div className='card'>
-                <div className='card-title'>
-                <div className='img'>
-                    <img src={scrambler} alt="scrambler" className='scr'/>
-                </div>
-                </div>
+                    <div className='card-title'>
+                        <div className='img'>
+                            <img src={scrambler} alt="scrambler" className='scr'/>
+                        </div>
+                    </div>
                 </div>
 
                 {/* <div className='img'>
-                    <img src={scrambler} alt="scrambler" className='scr'/>
-                </div>
-
-                <div className='img'>
                     <img src={scrambler} alt="scrambler" className='scr'/>
                 </div>
 
