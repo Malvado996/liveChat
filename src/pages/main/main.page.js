@@ -23,14 +23,6 @@ const Main = () => {
                     </div>
                 </div>
 
-                {/* <div className='card'>
-                    <div className='card-title'>
-                        <div className='img'>
-                            <img src={scrambler} alt="scrambler" className='scr'/>
-                        </div>
-                    </div>
-                </div> */}
-
             </div>
         </div>
     )
