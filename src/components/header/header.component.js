@@ -12,7 +12,7 @@ const Header = () => {
                 <div className="home-button-container">
                 <img src={bike} alt='home-button' />
                 </div>
-                <p>hello world.</p>
+                <p>Navigation</p>
             </div>
         </header>
 
