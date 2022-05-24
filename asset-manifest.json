@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/rowdy-moto/static/css/main.e996c946.css",
-    "main.js": "/rowdy-moto/static/js/main.55d11e7d.js",
+    "main.js": "/rowdy-moto/static/js/main.215937e4.js",
     "static/js/787.daf421d1.chunk.js": "/rowdy-moto/static/js/787.daf421d1.chunk.js",
     "static/media/scrambler.jpg": "/rowdy-moto/static/media/scrambler.bbc72238a5d01a52b8eb.jpg",
     "static/media/bike.svg": "/rowdy-moto/static/media/bike.64db502a606498da02a4739dd35a8135.svg",
     "index.html": "/rowdy-moto/index.html",
     "main.e996c946.css.map": "/rowdy-moto/static/css/main.e996c946.css.map",
-    "main.55d11e7d.js.map": "/rowdy-moto/static/js/main.55d11e7d.js.map",
+    "main.215937e4.js.map": "/rowdy-moto/static/js/main.215937e4.js.map",
     "787.daf421d1.chunk.js.map": "/rowdy-moto/static/js/787.daf421d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e996c946.css",
-    "static/js/main.55d11e7d.js"
+    "static/js/main.215937e4.js"
   ]
 }
